@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?270f0c03ab667793e90ffabbe2bbcf57") format("truetype"),
+url("./flaticon.woff?270f0c03ab667793e90ffabbe2bbcf57") format("woff"),
+url("./flaticon.woff2?270f0c03ab667793e90ffabbe2bbcf57") format("woff2"),
+url("./flaticon.eot?270f0c03ab667793e90ffabbe2bbcf57#iefix") format("embedded-opentype"),
+url("./flaticon.svg?270f0c03ab667793e90ffabbe2bbcf57#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "test": "\f101",
+    "microscope": "\f102",
+    "research": "\f103",
+    "magnifying-glass": "\f104",
+    "fast-forward": "\f105",
+    "arrow-down-sign-to-navigate": "\f106",
+    "envelope": "\f107",
+    "call": "\f108",
+    "wall-clock": "\f109",
+    "menu": "\f10a",
+);
+
+.flaticon-test:before {
+    content: map-get($flaticon-map, "test");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-research:before {
+    content: map-get($flaticon-map, "research");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}
+.flaticon-fast-forward:before {
+    content: map-get($flaticon-map, "fast-forward");
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon-map, "arrow-down-sign-to-navigate");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}

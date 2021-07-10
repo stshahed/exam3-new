@@ -1,0 +1,133 @@
+/* header up */
+
+
+@media (max-width: 991px){
+    .header-up-right p {
+        padding: 10px 0;
+        font-size: 11px;
+    }
+    .header-up-left p {
+        padding: 10px 0;
+        font-size: 11px;
+    }
+}
+
+/* main header */
+@media(max-width:991px){
+    .header-iconbar ul li span i {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+/* banner */
+@media(max-width:1199px){
+    
+}
+
+/* source */
+
+@media (max-width: 1199px){
+    .source-item h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .source-item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px){
+    .source {
+        padding: 80px;
+    }
+    .source-hover {
+        margin-top: 0;
+        z-index: 100;
+        margin-bottom: 25px;
+    }
+    
+}
+@media (max-width: 767px){
+    .sm{
+        margin-top: 10px;
+    }
+}
+
+/* about */
+@media (max-width: 1199px){
+    
+    .about-details {
+        padding: 0px 10px 10px 20px;
+        z-index: 1;
+    }
+    .about-details h2 {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 6px 0;
+    }
+}
+@media (max-width: 767px){
+    .about-details {
+        padding-top: 100px;
+        z-index: 1;
+    }
+    
+}
+
+/* project */
+
+@media (max-width: 1199px){
+    .project-content {
+        margin-bottom: 20px;
+    }
+}
+/* choose */
+@media (max-width: 650px){
+    .choose {
+        padding: 80px 40px;
+    }
+}
+/* team */
+@media (max-width: 991px){
+    .team-member {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 575px){
+    .team-member {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0 30px;
+    }
+}
+/* test */
+@media (max-width: 991px){
+    .test-percent {
+        padding-bottom: 50px;
+    }
+}
+/* news */
+@media (max-width: 1199px){
+    .news .col-lg-6 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+}
+@media (max-width: 991px){
+    .news .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+/* img section */
+@media (max-width: 991px){
+    .img-section-img {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+/* footer menu */
+@media (max-width: 991px){}
